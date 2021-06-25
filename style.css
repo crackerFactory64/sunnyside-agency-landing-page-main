@@ -12,11 +12,11 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  margin: 0;
-  padding: 0;
   font-size: 1rem;
   font-family: "Barlow", sans-serif;
 }
@@ -43,6 +43,14 @@ h2 {
 
 .show {
   display: block;
+}
+
+.green {
+  color: var(--darkDesaturatedCyan) !important;
+}
+
+.blue {
+  color: var(--darkBlue) !important;
 }
 
 .slice-bg {
@@ -81,15 +89,16 @@ h2 {
 .section__title {
   font-size: 2.25rem;
   line-height: 1.25em;
-  padding-top: 0.5em;
+  padding-top: 2em;
   color: var(--vDarkDesaturatedBlue);
+  margin-bottom: 1em;
 }
 
 .section__text {
   color: var(--dGrayishBlue);
   font-size: 1.25em;
   line-height: 1.5em;
-  padding-bottom: 0.5em;
+  margin-bottom: 1.5em;
 }
 
 .section__link {
@@ -103,4 +112,24 @@ h2 {
   color: black;
   letter-spacing: 2px;
   display: block;
+}
+
+.section__link--pink {
+  border-color: var(--softRed);
+}
+
+.cherry-bg,
+.orange-bg {
+  min-height: 73.5vh;
+  background-size: 100%;
+  padding-top: 20em;
+  font-size: 0.9rem;
+}
+
+.cherry-bg {
+  background-image: url(/images/mobile/image-graphic-design.jpg);
+}
+
+.orange-bg {
+  background-image: url(/images/mobile/image-photography.jpg);
 }
