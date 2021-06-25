@@ -1,3 +1,15 @@
+:root {
+  --softRed: hsl(7, 99%, 70%);
+  --yellow: hsl(51, 100%, 49%);
+  --darkDesaturatedCyan: hsl(167, 40%, 24%);
+  --darkBlue: hsl(198, 62%, 26%);
+  --darkModerateCyan: hsl(168, 34%, 41%);
+  --vDarkDesaturatedBlue: hsl(212, 27%, 19%);
+  --vDarkGrayishBlue: hsl(213, 9%, 39%);
+  --dGrayishBlue: hsl(232, 10%, 55%);
+  --grayishBlue: hsl(210, 4%, 67%);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -16,7 +28,7 @@ img {
 h1,
 h2 {
   font-family: "Fraunces", serif;
-  color: white;
+  color: black;
 }
 
 .container {
@@ -48,6 +60,7 @@ h2 {
 }
 
 .jumbo__title {
+  color: #fff;
   text-transform: uppercase;
   letter-spacing: 5px;
   text-align: center;
@@ -58,4 +71,36 @@ h2 {
   display: block;
   margin: 0 auto;
   padding: 3em 0 8.5em 0;
+}
+
+.section__content {
+  text-align: center;
+  line-height: 1.5em;
+}
+
+.section__title {
+  font-size: 2.25rem;
+  line-height: 1.25em;
+  padding-top: 0.5em;
+  color: var(--vDarkDesaturatedBlue);
+}
+
+.section__text {
+  color: var(--dGrayishBlue);
+  font-size: 1.25em;
+  line-height: 1.5em;
+  padding-bottom: 0.5em;
+}
+
+.section__link {
+  width: 50%;
+  margin: 0 auto 3em auto;
+  font-family: "Fraunces", serif;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  text-decoration: none;
+  border-bottom: 5px var(--yellow) solid;
+  color: black;
+  letter-spacing: 2px;
+  display: block;
 }
