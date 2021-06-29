@@ -67,6 +67,10 @@ h2 {
   justify-content: space-between;
 }
 
+.jumbo {
+  min-height: 55vh;
+}
+
 .jumbo__title {
   color: #fff;
   text-transform: uppercase;
@@ -87,7 +91,7 @@ h2 {
 }
 
 .section__title {
-  font-size: 2.25rem;
+  font-size: 2rem;
   line-height: 1.25em;
   padding-top: 2em;
   color: var(--vDarkDesaturatedBlue);
@@ -106,7 +110,7 @@ h2 {
   margin: 0 auto 3em auto;
   font-family: "Fraunces", serif;
   text-transform: uppercase;
-  font-size: 1.25rem;
+  font-size: 1rem;
   text-decoration: none;
   border-bottom: 5px var(--yellow) solid;
   color: black;
@@ -132,4 +136,105 @@ h2 {
 
 .orange-bg {
   background-image: url(/images/mobile/image-photography.jpg);
+}
+
+.section__title--test {
+  color: var(--dGrayishBlue);
+  letter-spacing: 3px;
+  text-align: center;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.test__img {
+  display: block;
+  border-radius: 50%;
+  width: 25%;
+  margin: 5em auto 2.5em auto;
+}
+
+.test__quote,
+.test__name,
+.test__job {
+  text-align: center;
+}
+
+.test__quote {
+  color: var(--vDarkGrayishBlue);
+  line-height: 2em;
+  font-size: 1rem;
+}
+
+.test__name {
+  margin-top: 1em;
+  font-family: "Fraunces", serif;
+  font-size: 1.25rem;
+}
+
+.test__job {
+  margin-top: 1em;
+  color: var(--dGrayishBlue);
+}
+
+.gallery {
+  margin-top: 5em;
+}
+
+.gallery__image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.footer {
+  background: #90d4c5;
+}
+
+.footer__logo {
+  display: block;
+  width: 58%;
+  margin: 0 auto;
+  padding: 3em 0 3em 0;
+  filter: invert(36%) sepia(23%) saturate(1014%) hue-rotate(116deg)
+    brightness(60%) contrast(88%);
+}
+
+.footer__nav-list,
+.footer__socials {
+  list-style: none;
+}
+
+.footer__nav-list {
+  justify-content: space-around;
+  margin-bottom: 5em;
+}
+
+.footer__nav-link {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: var(--darkModerateCyan);
+}
+
+.footer__socials {
+  justify-content: center;
+  padding-bottom: 4em;
+}
+
+.socials__item + .socials__item {
+  margin-left: 2em;
+}
+
+.socials__link {
+  color: #fff;
+}
+
+.footer__nav-link:hover,
+.footer__nav-link:focus {
+  color: #fff;
+}
+
+.socials__link:focus img,
+.socials__link:hover img {
+  filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(146deg)
+    brightness(200%) contrast(101%);
 }
