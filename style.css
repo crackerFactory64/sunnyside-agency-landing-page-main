@@ -33,7 +33,6 @@ h2 {
 
 .container {
   width: 90%;
-  max-width: 375px;
   margin: 0 auto;
 }
 
@@ -50,6 +49,10 @@ h2 {
   justify-content: space-between;
 }
 
+.reverse {
+  flex-direction: row-reverse;
+}
+
 .green {
   color: var(--darkDesaturatedCyan) !important;
 }
@@ -60,7 +63,8 @@ h2 {
 
 .slice-bg {
   background-image: url(/images/mobile/image-header.jpg);
-  background-size: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .header {
@@ -136,6 +140,20 @@ h2 {
   padding: 3em 0 8.5em 0;
 }
 
+.section__img-container {
+  background-size: 100% 100%;
+  width: 100%;
+  min-height: 40vh;
+}
+
+.section:nth-of-type(1) .section__img-container {
+  background-image: url("/images/mobile/image-transform.jpg");
+}
+
+.section:nth-of-type(2) .section__img-container {
+  background-image: url("/images/mobile/image-stand-out.jpg");
+}
+
 .section__content {
   text-align: center;
   line-height: 1.5em;
@@ -179,10 +197,11 @@ h2 {
 
 .cherry-bg,
 .orange-bg {
-  min-height: 73.5vh;
-  background-size: 100%;
   padding-top: 20em;
+  padding-bottom: 2.5em;
   font-size: 0.9rem;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .cherry-bg {
@@ -292,4 +311,46 @@ h2 {
 .socials__link:hover img {
   filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(146deg)
     brightness(200%) contrast(101%);
+}
+
+@media (min-width: 700px) {
+  .row {
+    display: flex;
+  }
+
+  .slice-bg {
+    background-image: url(/images/desktop/image-header.jpg);
+    background-size: 155%;
+    background-position: center top;
+  }
+
+  .section__content,
+  .section__img-container {
+    width: 100%;
+  }
+
+  .section:nth-of-type(1) .section__img-container {
+    background-image: url("/images/desktop/image-transform.jpg");
+  }
+
+  .section:nth-of-type(2) .section__img-container {
+    background-image: url("/images/desktop/image-stand-out.jpg");
+  }
+
+  .cherry-bg,
+  .orange-bg {
+    width: 100%;
+  }
+
+  .row--test {
+    justify-content: space-between;
+  }
+
+  .test {
+    width: 30%;
+  }
+
+  .test__img {
+    width: 60%;
+  }
 }
