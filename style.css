@@ -329,6 +329,11 @@ h2 {
     width: 100%;
   }
 
+  .section__img-container {
+    background-size: cover;
+    background-position: center;
+  }
+
   .section:nth-of-type(1) .section__img-container {
     background-image: url("/images/desktop/image-transform.jpg");
   }
