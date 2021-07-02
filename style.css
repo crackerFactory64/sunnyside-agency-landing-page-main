@@ -320,8 +320,8 @@ h2 {
 
   .slice-bg {
     background-image: url(/images/desktop/image-header.jpg);
-    background-size: 155%;
-    background-position: center top;
+    background-size: cover;
+    background-position: center;
   }
 
   .section__content,
