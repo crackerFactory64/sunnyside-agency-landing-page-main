@@ -365,6 +365,10 @@ h2 {
     display: block;
   }
 
+  .slice-bg {
+    min-height: 100vh;
+  }
+
   .header {
     padding: 0;
   }
@@ -420,5 +424,12 @@ h2 {
   .nav__link--button:hover,
   .nav__link--button:focus {
     opacity: 0.5;
+  }
+
+  .jumbo__title {
+    letter-spacing: 10px;
+    font-size: 5rem;
+    padding-top: 1em;
+    margin-bottom: 0.75em;
   }
 }
