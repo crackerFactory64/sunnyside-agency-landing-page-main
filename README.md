@@ -13,9 +13,7 @@ Users should be able to:
 
 ### Screenshots
 
-Mobile:
 ![Screenshot of mobile version of my solution](mobile.png)
-Desktop:
 ![Screenshot of desktop version of my solution](desktop.png)
 
 ## My process
