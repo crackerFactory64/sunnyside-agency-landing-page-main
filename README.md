@@ -13,9 +13,9 @@ Users should be able to:
 
 ### Screenshots
 
-![Screenshot of mobile version of my solution](.mobile.png)
-![Screenshot of tablet version of my solution](.tablet.png)
-![Screenshot of desktop version of my solution](.desktop.png)
+![Screenshot of mobile version of my solution](mobile.png)
+![Screenshot of tablet version of my solution](tablet.png)
+![Screenshot of desktop version of my solution](desktop.png)
 
 ## My process
 
